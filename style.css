@@ -27,6 +27,7 @@ p {
     margin-right: 4vw;
 }
 
+iframe.instaram-media,
 blockquote.instagram-media {
     max-width: 100vw !important;
     width: 100vw !important;
