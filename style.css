@@ -27,6 +27,13 @@ p {
     margin-right: 4vw;
 }
 
+p.secret-offer {
+    max-width: 500px;
+    margin-top: 70vh;
+    font-size: 2vw;
+    opacity: 20%;
+}
+
 iframe.instaram-media,
 blockquote.instagram-media {
     max-width: 100vw !important;
