@@ -40,3 +40,19 @@ blockquote.instagram-media {
     width: 100vw !important;
     min-width: 100vw !important;
 }
+
+#result {
+    font-size: 12vw;
+    font-family: monospace;
+}
+
+.text-label
+{
+    font-size: 4vw;  
+}
+
+#barCount,
+#run {
+    font-size: 6vw;
+    width: 30vw;
+}
