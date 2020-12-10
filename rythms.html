@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <body>
-    <label class="text-label">Количество тактов</label>
-    <input id="barCount", type="text" value="4"></input>
-    <button id="run">Родить</button>
-    <div id="result"></div>
+    <div class="wrapper">
+        <button id="run">Родить</button>
+        <input id="barCount", type="text" value="4"></input>
+        <label class="text-label">такта</label>
+        <div id="result"></div>
+    </div>
+
     <script>
-        const notes = ['B', 't', '-'];
+        const notes = ['D', 't', '-'];
         
         function getRythmStr(r, barLength) {
             ret = '';
@@ -23,7 +26,8 @@
                 {
                     ret += '|'
                 }
-                ret += notes[r[i]];
+                const  noteToAdd = !(i % 2) ? notes[r[i]] : (notes[r[i]] == 't' ? 'k': notes[r[i]]);
+                ret += noteToAdd;
             }
             return ret;
         }

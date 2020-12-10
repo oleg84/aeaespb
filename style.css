@@ -42,17 +42,22 @@ blockquote.instagram-media {
 }
 
 #result {
-    font-size: 12vw;
+    font-size: 8vw;
     font-family: monospace;
 }
 
 .text-label
 {
-    font-size: 4vw;  
+    font-size: 3vw;  
 }
 
 #barCount,
 #run {
     font-size: 6vw;
-    width: 30vw;
+    width: 25vw;
+}
+
+.wrapper {
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
