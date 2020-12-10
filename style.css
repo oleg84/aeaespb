@@ -49,15 +49,41 @@ blockquote.instagram-media {
 .text-label
 {
     font-size: 6vw;  
+    text-align: center;
+}
+
+#switch-background
+{
+    transform: scale(1.5);
 }
 
 #barCount,
 #run {
     font-size: 6vw;
-    width: 25vw;
+    width: 100%;
 }
 
 .wrapper {
     margin-left: 3vw;
     margin-right: 3vw;
+}
+
+.background-grey {
+    font-family: inherit;
+}
+
+.wrapper-flex {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 16vw;
+   }
+
+.flex-item {
+	margin: 5px;
+	padding: 5px;
+    flex: 0 1 auto;
+    width: 30vw;
 }
