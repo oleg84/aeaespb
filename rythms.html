@@ -27,12 +27,11 @@
             for (i=0; i < r.length; i++) {
                 if (i && i % barLength == 0)
                 {
-                    ret += '<span class="background-grey">';
+                    ret += '';
                 }
                 const  noteToAdd = !(i % 2) ? notes[r[i]] : (notes[r[i]] == 't' ? 'k': notes[r[i]]);
                 ret += noteToAdd;
             }
-            ret += '</span>'
             return ret;
         }
     
